@@ -8,7 +8,7 @@ test('basic tokenisation of words', () => {
     expect(result.tokens.length).toBe(11);
 });
 
-test('letter-digit counting', () => {
+test('letter-digit digit-letter counting', () => {
     const tokeniser = new LanguageTokeniser();
 
     const result = tokeniser.process('ab34cd56 <- this is a reference');
